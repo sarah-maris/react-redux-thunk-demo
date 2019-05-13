@@ -1,9 +1,11 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { handleSetCategory } from '../actions';
 import { categories } from '../helpers/data';
 
 class Categories extends React.Component {
   setCategory = e => {
-    this.props.updateCategory(e.target.value);
+    this.props.dispatch(handleSetCategory(e.target.value));
   };
 
   render() {
@@ -27,4 +29,6 @@ class Categories extends React.Component {
   }
 }
 
-export default Categories;
+export default connect(state => ({
+  location: state.category
+}))(Categories);

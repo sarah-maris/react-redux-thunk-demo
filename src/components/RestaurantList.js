@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import { categories } from '../helpers/data';
 import loader from '../images/circles-loader.svg';
 
@@ -41,4 +42,10 @@ class RestaurantList extends React.Component {
   }
 }
 
-export default RestaurantList;
+export default connect(state => ({
+  restaurants: state.restaurants.venues,
+  location: state.location,
+  category: state.category,
+  loading: state.restaurants.loading,
+  error: state.restaurants.error
+}))(RestaurantList);

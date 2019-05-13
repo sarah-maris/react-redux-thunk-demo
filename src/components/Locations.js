@@ -1,9 +1,11 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { handleSetLocation } from '../actions';
 import { locations } from '../helpers/data';
 
 class Locations extends React.Component {
   setLocation = e => {
-    this.props.updateLocation(e.target.value);
+    this.props.dispatch(handleSetLocation(e.target.value));
   };
 
   render() {
@@ -27,4 +29,6 @@ class Locations extends React.Component {
   }
 }
 
-export default Locations;
+export default connect(state => ({
+  location: state.location
+}))(Locations);
