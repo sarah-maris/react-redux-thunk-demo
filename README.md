@@ -20,6 +20,35 @@ or if you prefer to use npm, run:
 <br>
 This will run the app in  development mode at:  **[http://localhost:3000](http://localhost:3000)**
 
+## Basic File Structure
+
+```
+project folder
+│
+├── public
+│    └── index.js
+├── src
+│   ├── actions
+│   │   └── index.js
+│   ├── components
+│   │   ├── App.js
+│   │   ├── Categories.js
+│   │   ├── Locations.js
+│   │   └── RestaurantList.js
+│   ├── css
+│   │    └── app.css
+│   ├── helpers/utils
+│   │   ├── apis.js
+│   │   ├── credentials.js
+│   │   └── data.js
+│   ├── images
+│   ├── middleware
+│   │   ├── logger.js
+│   │   └── index.js
+│   └── reducers
+│     └── index.js
+└── README.md
+```
 
 ## Resources:
 
