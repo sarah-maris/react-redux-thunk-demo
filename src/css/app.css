@@ -1,0 +1,61 @@
+body {
+  font-family: Lato, sans-serif;
+}
+
+h1 {
+  color: #1e60eb;
+}
+h3 {
+  color: #fd9a28;
+}
+
+p {
+  color: #37dc94;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.dropdown {
+  width: 250px;
+}
+
+.list {
+  margin: auto;
+}
+
+.error {
+  color: #fa5c65;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+
+  padding-left: 0;
+}
+
+select {
+  color: #1e60eb;
+  background-color: #fff;
+  border-color: #1e60eb;
+  font-size: 20px;
+  padding: 5px;
+}
+
+option:disabled {
+}
+
+.App-header {
+  align-items: center;
+  background-color: #37dc94;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 25vh;
+}
