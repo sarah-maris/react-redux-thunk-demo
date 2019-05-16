@@ -12,10 +12,11 @@ Add the credentials to the `credentials-sample.js` file in the `helper` folder a
 ### Step 2: Install the project framework and start the development server
 In the project directory run:
 
-### `yarn install && yarn start`
+### `yarn install && yarn start`  
 
 <br>
 or if you prefer to use npm, run:  
+
 ### `npm install && npm start`
 <br>
 This will run the app in  development mode at:  **[http://localhost:3000](http://localhost:3000)**
