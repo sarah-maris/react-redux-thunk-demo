@@ -21,7 +21,8 @@ or if you prefer to use npm, run:
 <br>
 
 This will run the app in development mode at **[localhost:3000](http://localhost:3000/)**
-**[Foursquare Developers](https://foursquare.com/developers/signup)**
+
+
 ## Basic File Structure
 
 ```
