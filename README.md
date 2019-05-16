@@ -1,4 +1,4 @@
-# React/Redux/Thunk Demo TEST
+# React/Redux/Thunk Demo
 
 This project was created as part of a walk-through to demonstrate how to use Thunk and Redux in a React app.
 
